@@ -8,9 +8,9 @@ import "github.com/ElrondfromRussia/emotional"
 
 <b>example:</b>
 ```
-	Happy()
-	HappyCat()
-	Love()
+Happy()
+HappyCat()
+Love()
 ```
 
 <b>example result:</b>
