@@ -1,0 +1,2 @@
+# emotional
+emotional go functions )))
