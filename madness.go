@@ -6,20 +6,26 @@ import (
 	"time"
 )
 
+const (
+	ISTERIC   = "ᕕ| ~ ⁰ ෴ ⁰ ~ |┐"
+	APATIC    = "〳 ͡° Ĺ̯ ͡° 〵"
+	DEPRESSED = "༼▃ Ĺ̯ ▃༽"
+)
+
 func Isteric() {
-	go func() { elogging.SirLogger.Fatalln("ᕕ| ~ ⁰ ෴ ⁰ ~ |┐") }()
-	go func() { elogging.SirLogger.Fatalln("ᕕ| ~ ⁰ ෴ ⁰ ~ |┐") }()
-	go func() { log.Fatalln("ᕕ| ~ ⁰ ෴ ⁰ ~ |┐") }()
+	go func() { elogging.SirLogger.Fatalln(ISTERIC) }()
+	go func() { elogging.SirLogger.Fatalln(ISTERIC) }()
+	go func() { log.Fatalln(ISTERIC) }()
 }
 
 func Apatic() {
 	for true {
-		log.Println("〳 ͡° Ĺ̯ ͡° 〵")
+		log.Println(APATIC)
 	}
 }
 
 func Depression() {
-	go func() { log.Println("༼▃ Ĺ̯ ▃༽") }()
+	go func() { log.Println(DEPRESSED) }()
 	i := 0
 	for i < 60 {
 		i += 1

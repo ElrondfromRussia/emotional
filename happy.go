@@ -4,14 +4,20 @@ import (
 	"log"
 )
 
+const (
+	HAPPY    = "(＾▽＾)"
+	HAPPYCAT = "(─‿‿─)"
+	LOVE     = "(─‿‿─)♡"
+)
+
 func Happy() {
-	log.Println("(＾▽＾)")
+	log.Println(HAPPY)
 }
 
 func HappyCat() {
-	log.Println("(─‿‿─)")
+	log.Println(HAPPYCAT)
 }
 
 func Love() {
-	log.Println("(─‿‿─)♡")
+	log.Println(LOVE)
 }

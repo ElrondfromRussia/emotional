@@ -4,6 +4,16 @@ import (
 	"testing"
 )
 
+func TestScenarios(t *testing.T) {
+	Bipolar()
+	BigHappiness()
+	IiiiiigorArmy()
+	GopherArmy()
+	GopherParty()
+	GrrGrrGrrFuckThisShit()
+	IiiiiigorHistory()
+}
+
 func TestHappy(t *testing.T) {
 	Happy()
 	HappyCat()

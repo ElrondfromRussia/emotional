@@ -2,18 +2,25 @@ package emotional
 
 import "log"
 
+const (
+	FUCK    = "凸(￣ヘ￣)"
+	DISGUST = "(︶︹︺)"
+	GRRR    = "٩(ఠ益ఠ)۶"
+	GOAWAY  = "╭∩╮(ಠಠ)╭∩╮"
+)
+
 func Fuck() {
-	log.Println("凸(￣ヘ￣)")
+	log.Println(FUCK)
 }
 
 func Disgust() {
-	log.Println("(︶︹︺)")
+	log.Println(DISGUST)
 }
 
 func Grrr() {
-	log.Println("٩(ఠ益ఠ)۶")
+	log.Println(GRRR)
 }
 
 func GoAway() {
-	log.Println("╭∩╮(ಠಠ)╭∩╮")
+	log.Println(GOAWAY)
 }

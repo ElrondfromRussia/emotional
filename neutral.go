@@ -4,38 +4,50 @@ import (
 	"log"
 )
 
+const (
+	POCKERFACE     = "(一_一)"
+	SHRUGGING      = "¯\\_(ツ)_/¯"
+	IIIIIIGOR      = "୧( ಠ┏ل͜┓ಠ )୨"
+	SENSEYREACTION = "(￣^￣)ゞ"
+	WOWREALLY      = "(⊙_⊙)"
+	GOPHER         = "ʕ•ᴥ•ʔ"
+	DRUGGEDGOPHER  = "ʕ⊙ᴥ⊙ʔ"
+	COOLGOPHER     = "(✪㉨✪)"
+	CAT            = "≧(◕ ‿‿ ◕)≦"
+)
+
 func PockerFace() {
-	log.Println("(一_一)")
+	log.Println(POCKERFACE)
 }
 
 func Shrugging() {
-	log.Println("¯\\_(ツ)_/¯")
+	log.Println(SHRUGGING)
 }
 
 func Iiiiiigor() {
-	log.Println("୧( ಠ┏ل͜┓ಠ )୨")
+	log.Println(IIIIIIGOR)
 }
 
 func SenseyReaction() {
-	log.Println("(￣^￣)ゞ")
+	log.Println(SENSEYREACTION)
 }
 
 func WowReally() {
-	log.Println("(⊙_⊙)")
+	log.Println(WOWREALLY)
 }
 
 func Gopher() {
-	log.Println("ʕ•ᴥ•ʔ")
+	log.Println(GOPHER)
 }
 
 func DruggedGopher() {
-	log.Println("ʕ⊙ᴥ⊙ʔ")
+	log.Println(DRUGGEDGOPHER)
 }
 
 func CoolGopher() {
-	log.Println("(✪㉨✪)")
+	log.Println(COOLGOPHER)
 }
 
 func Cat() {
-	log.Println("≧(◕ ‿‿ ◕)≦")
+	log.Println(CAT)
 }
