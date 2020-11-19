@@ -13,9 +13,20 @@ const (
 )
 
 func Isteric() {
-	go func() { elogging.SirLogger.Fatalln(ISTERIC) }()
-	go func() { elogging.SirLogger.Fatalln(ISTERIC) }()
-	go func() { log.Fatalln(ISTERIC) }()
+	go func() {
+		elogging.SirLogger.Fatalln(ISTERIC, RIGHTARROW, GRRR, RIGHTARROW,
+			DISGUST, RIGHTARROW, TAKBLET, RIGHTARROW, FUCK, RIGHTARROW, GOAWAY)
+	}()
+	go func() {
+		elogging.SirLogger.Fatalln(ISTERIC, RIGHTARROW, GRRR, RIGHTARROW,
+			DISGUST, RIGHTARROW, TAKBLET, RIGHTARROW, FUCK, RIGHTARROW, GOAWAY)
+	}()
+	go func() {
+		log.Fatalln(ISTERIC, RIGHTARROW, GRRR, RIGHTARROW, DISGUST, RIGHTARROW,
+			TAKBLET, RIGHTARROW, FUCK, RIGHTARROW, GOAWAY)
+	}()
+	log.Fatalln(ISTERIC, RIGHTARROW, GRRR, RIGHTARROW, DISGUST, RIGHTARROW,
+		TAKBLET, RIGHTARROW, FUCK, RIGHTARROW, GOAWAY)
 }
 
 func Apatic() {

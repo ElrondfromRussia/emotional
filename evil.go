@@ -7,6 +7,7 @@ const (
 	DISGUST = "(︶︹︺)"
 	GRRR    = "٩(ఠ益ఠ)۶"
 	GOAWAY  = "╭∩╮(ಠಠ)╭∩╮"
+	TAKBLET = "ᕦ(ò_óˇ)ᕤ"
 )
 
 func Fuck() {
@@ -23,4 +24,8 @@ func Grrr() {
 
 func GoAway() {
 	log.Println(GOAWAY)
+}
+
+func TakBlet() {
+	log.Println(TAKBLET)
 }

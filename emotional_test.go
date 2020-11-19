@@ -44,6 +44,7 @@ func TestEvil(t *testing.T) {
 	Disgust()
 	Grrr()
 	GoAway()
+	TakBlet()
 }
 
 func TestTeam(t *testing.T) {
